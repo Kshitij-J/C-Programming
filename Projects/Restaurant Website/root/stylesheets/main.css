@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.mySlides {
+  /* padding-top: 130px;
+  padding-left: 275px; */
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  border-top: 0cm;
+  opacity: 100%;
+  z-index: -1;
+}
+.logo {
+  top: 5px;
+  height: 150px;
+  width: auto;
+}
+
+.title_name {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 25%;
+  bottom: 50%;
+  left: 10%;
+  color: aliceblue;
+  font-size: 90px;
+  -webkit-text-stroke-color: black;
+}
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  min-width: 100vw;
+  max-width: 100vw;
+  opacity: 100%;
+  z-index: 1000;
+}
+ul {
+  display: flex;
+  margin-right: 2.5rem;
+  margin-top: 1.5rem;
+  gap: 33px;
+}
+li {
+  display: inline;
+}
+.btnmenu {
+  display: block;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  border-color: white;
+  background: transparent;
+  color: white;
+  opacity: 70%;
+  text-decoration: none;
+  margin-top: -3.5rem;
+}
+.btnmenu:hover {
+  opacity: 100%;
+  color: white;
+}
+.seat_reservation_button {
+  display: block;
+  padding: 12px 20px;
+  border: 1px solid transparent;
+
+  top: 60%;
+  left: 10%;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: absolute;
+  border-color: white;
+  background: white;
+  color: black;
+  opacity: 100%;
+}
+.seat_reservation_button:hover {
+  border-color: white;
+  background: transparent;
+  color: white;
+  opacity: 100%;
+}
+.dishes {
+  display: flex;
+  justify-content: space-around;
+}
+.dishes_text {
+  display: flex;
+  gap: 5rem;
+  margin-top: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+.dishes_img {
+  width: 476px;
+  height: 272px;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+}
+/* icons */
+.custom_icons {
+  height: 20px;
+  width: auto;
+}
